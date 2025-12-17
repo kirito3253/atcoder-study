@@ -1,0 +1,8 @@
+# Pythonキャッシュ
+__pycache__/
+*.py[cod]
+*$py.class
+
+# テスト用入力・出力ファイル
+input.txt
+output.txt
