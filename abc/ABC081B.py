@@ -1,7 +1,15 @@
-i = int(input())
+n = int(input())
 data = list(map(int, input().split()))
 count = 0
-while all(x % 2 == 0 for x in data): # 処理 for x in data
-    data = [x // 2 for x in data]
+
+def check(data):
+    for x in data:
+        if(x % 2 != 0):
+            return False
+    return True
+
+while check(data):
+    for i in range(n):
+        data[i] = data[i] // 2
     count += 1
 print(count)
