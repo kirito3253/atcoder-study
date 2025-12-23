@@ -6,6 +6,6 @@ b = list(map(int, input().split()))
 
 total = 0
 
-total = sum(abs(i-j)%998244353 for i, j in itertools.product(a,b))
+total = sum(abs(i-j) for i, j in itertools.product(a,b))
 
 print(total%998244353)
