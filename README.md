@@ -12,7 +12,7 @@
 ├── ABS/             # AtCoder Beginners Selection の解答（全問完了）
 ├── .gitignore       # Git 管理から除外する設定
 ├── README.md        # 本ドキュメント
-└── unsolved.text    # まだ解けていない問題や、今後挑戦したい課題のメモ
+└── unsolved.text    # 解けなかった問題や、今後挑戦したい課題のメモ
 ```
 
 ## 今後の目標 (Future Goals)
