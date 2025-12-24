@@ -6,7 +6,7 @@ k = int(input_data[1])
 unlike_nums = set(input_data[2:])
 
 answer = []
-for i in n:
+for i in n: # 1桁ずつ見ると99->1010のようになってしまう
     temp = i
     while temp in unlike_nums:
         temp = str(int(temp) + 1)
