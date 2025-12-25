@@ -5,7 +5,8 @@ input_data = sys.stdin.read().strip().split()
 n = int(input_data[0])
 data = list(map(int, input_data[1:]))
 
-average = math.ceil(sum(data) / n)
+average = math.ceil(sum(data) / n) # 切り上げではなく四捨五入(round)にするべき
+# average = round(sum(data) / n)
 total = 0
 
 for x in data:
